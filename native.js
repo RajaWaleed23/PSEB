@@ -10,6 +10,6 @@ const app = express();
 app.use(express.json()); 
 // app.use('/api/user',require('./routes/users'));
 app.get('/', (req, res) => {
-  res.send('Hello from Express');
+  res.send('Welcome to PSEB Activity. We are pushing for task.');
 });
 app.listen(5000);
